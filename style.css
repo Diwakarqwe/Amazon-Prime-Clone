@@ -1,0 +1,394 @@
+ /* Amazon prime CSS */
+
+
+body{
+    text-transform: capitalize;
+    background-color: black;
+}
+
+.navbar_iconbar > span{
+    border: 2px solid white;
+}
+
+.navbar_iconbar{
+    border: 1px solid white;
+}
+
+.navbar_iconbar:hover{
+    background-color: #0F79AF;
+    border:none;
+}
+
+#dropdown_hover:hover > #show{
+    display: block;
+     position: absolute;
+     background-color:#404040;
+     /*box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);*/
+     /*box-shadow:0 4px 4px 0 rgba(0,0,0,.3),0 8px 12px 6px rgba(0,0,0,.15);*/
+     z-index: 1000;
+     padding: 24px;
+     font-size: 16px;
+     min-width: 100px;
+     border-radius:10px;
+}
+
+.dropdownhover_data > li > a{
+    color:white;
+    padding:14px;
+}
+
+.dropdownhover_data > li > a:hover{
+    background-color:white;
+    color:black;
+    border-radius:10px;
+}
+
+.dropdownhover_data > p{
+    color:white;
+    padding-left:15px;
+    margin-bottom:20px;
+}
+
+#dropdown_hover1:hover > #show1{
+    display: block;
+     position: absolute;
+     background-color:#404040;
+     /*box-shadow: 0 0 40px 5px rgba(0 0 0 / 5%);*/
+     /*box-shadow:0 4px 4px 0 rgba(0,0,0,.3),0 8px 12px 6px rgba(0,0,0,.15);*/
+     z-index: 950px;
+     padding: 20px;
+     font-size: 16px;
+     min-width: 800px;
+     border-radius:10px;
+}
+
+.dropdownhover_data1 > ul > li > a{
+    color: white;
+    padding:14px;
+}
+
+.dropdownhover_data1 > ul > li{
+    margin-bottom:20px;
+}
+
+.dropdownhover_data1 > ul > li > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration:none;
+}
+
+.dropdownone{
+    float: left;
+    list-style-type: none;
+}
+
+.dropdowntwo{
+    list-style-type: none;
+    float: left;
+}
+
+.dropdownthree{
+    float: left;
+    list-style-type: none;
+}
+
+.dropdownfour{
+    float: left;
+    list-style-type: none;
+}
+
+#dropdown_hover2:hover > #show2{
+    display: block;
+    position: absolute;
+    background-color:#404040 !important;
+    padding: 20px 20px 0 20px;
+    font-size: 16px;
+    min-width: 800px;
+    border-radius:10px;
+}
+
+abbr[title]{
+    text-decoration:none;
+}
+
+.dropdownhover_data2 > li > a{
+    padding:0;
+    border-radius:10px;
+}
+
+.search_icon > img{
+    width: 24px;
+    height: 24px;
+}
+
+.form-control{
+    min-height:50px;
+}
+
+.search_icon{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    background-color:#0F79AF;
+    position: relative;
+    left:720;
+    border-radius: 16px;
+    top:-41;
+}
+
+
+
+
+
+@media (min-width:769px) {
+    .phoneview{
+        display:none;
+    }   
+}
+
+@media (max-width:768px){
+    .laptopview{
+        display:none;
+    }
+
+    .amazon_nav1 > li > a{
+        text-align: center;
+    }
+
+    .amazon_nav2 > li{
+        margin-bottom:10px;
+        text-align: center;
+    }
+
+    .amazon_nav11 > center > a > img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .amazon_nav11 > center:hover{
+        border-radius:10px;
+        background-color:#0F79AF !important;
+    }
+
+    .amazon_nav44 > center > a{
+        padding:6px !important;
+        margin-right:10px;
+    }
+    
+    .amazon_nav44 > center > a > img{
+        width:38px;
+        height:38px;
+    }
+
+    .amazon_nav44 > center > a{
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    .amazon_nav44 > center > a:hover{
+        background-color: #0F79AF !important;
+        border-radius:15px;
+    }    
+}
+
+.navbar_main{
+    padding: 15px 30px;
+}
+
+.amazon_nav1 > li{
+    margin-right:10px;
+}
+
+.amazon_nav1 > li > a{
+    color: white;
+    font-size:16px;
+}
+
+.amazon_nav1 > li > a:hover{
+    text-decoration: none;
+    background-color: #0F79AF;
+    border-radius: 10px;
+}
+
+.amazon_nav11 > a > img{
+    width: 20px;
+    height: 20px;
+}
+
+.amazon_nav11 > a:hover{
+    border-radius:30px;
+    background-color:#0F79AF !important;
+}
+
+.amazon_nav22 > a{
+    color: white;
+}
+
+.amazon_nav22 > a > span{
+    margin-left:6px;
+}
+
+.amazon_nav22 > a:hover{
+    text-decoration: none;
+    border-radius:10px;
+    background-color:#0F79AF !important;
+}
+
+.amazon_nav33 > a > span{
+    font-size:16px;
+    color: white;
+}
+
+.amazon_nav33 > a:hover{
+    background-color:#0F79AF !important;
+    border-radius:30px;
+}
+
+.amazon_nav44 > a{
+    padding:6px !important;
+    margin-right:10px;
+}
+
+.amazon_nav44 > a > img{
+    width:38px;
+    height:38px;
+}
+
+.amazon_nav44 > a:hover{
+    background-color: #0F79AF !important;
+    border-radius:30px;
+}
+
+
+.amazon_nav55 > button{
+    padding: 10px 16px;
+    background-color:#0F79AF !important;
+    color: white;
+    border-radius:8px;
+}
+
+.amazon_nav55 > button:hover{
+    color: white;
+}
+
+.content_one{
+    color: white;
+}
+
+.content_one > h1{
+    font-weight:540;
+    margin-bottom:20px;
+}
+
+.content_one > p{
+    text-transform: none;
+    font-size: 20px;
+    margin-bottom:8%;
+}
+
+.content_one > a{
+    background-color: #0F79AF;
+    padding: 14px 9%;
+    font-size:17px;
+    font-weight:600;
+    margin-bottom:30px;
+    color: white;
+}
+
+.content_one > a:hover{
+    color: white;
+}
+
+
+.content_two{
+    color: white;
+}
+
+
+.content_two > h1{
+    font-weight:500;
+    margin-bottom:20px;
+}
+
+.content_two > p{
+    text-transform:none;
+    font-size:20px;
+    margin-bottom:7%;
+}
+
+.content_two > a{
+    background-color:#0F79AF;
+    padding: 12px 16%;
+    font-size: 17px;
+    font-weight:600;
+    margin-bottom:30px;
+    color:white;
+}
+
+.content_two > a:hover{
+    color: white;
+}
+
+.content_threebg{
+    background-color:white;
+    padding: 10px 0 0 4%;
+}
+
+.content_three > h1{
+    font-weight:500;
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.content_three > p{
+    text-transform:none;
+    font-size:22px;
+    margin-bottom:7%;
+}
+
+.content_four{
+    margin-bottom:6px;
+    padding: 0 6px 0 0;
+}
+
+.content_four:hover{
+    /*transition: box-shadow 0.2s ease-in-out;*/
+    z-index: 1;
+    box-shadow: 0.2s ease-in-out;
+}
+
+.content_four > a:hover{
+    box-shadow:black;
+    border: black;
+}
+
+.content_five{
+    padding:20px;
+    text-transform:none;
+    background-color:#222222;
+    color:#8197a4;
+    font-size:15px;
+    text-align:center;
+}
+
+@media (max-width:768px) {
+    .content_five{
+        padding:20px 0 20px 0;
+    }
+}
+
+.content_six > a{
+    margin-right:10px;
+    color: #79b8f3;
+    font-size:15px;
+}
+
+.content_six{
+    margin-top:6px;
+    margin-bottom:16px;
+}
+
+
